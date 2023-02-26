@@ -21,12 +21,13 @@
 - Second, Now you have the freedom of all the uses within the class
 
 
-| _$obj.func_name_ | _Expanded Name_ | _Parameters_ |
-|---|---|---|
-| **InitAll** | Initialise All | void InitAll(int pto, ipaddress dA, ipaddress bA, System.Net.Sockets.AddressFamily AddressFamily, System.Net.Sockets.SocketType SocketType, System.Net.Sockets.ProtocolType ProtocolType) |
-| **CreateSocket** | Create Socket | void CreateSocket(System.Net.Sockets.AddressFamily AddressFamily, System.Net.Sockets.SocketType SocketType, System.Net.Sockets.ProtocolType ProtocolType) |
-| **SetAddresses** | Set Destination & Source IP | void SetAddresses(ipaddress bA, ipaddress dA) |
-| **Bind** | Bind Source IP to Socket | void Bind() |
-| **Receive** | Receive On Binded Socket | void Receive() |
-| **ConfPing** | Configure Ping Options | void ConfPing(int pto) |
-| **sBytes** | Send Bytes | void sBytes(string m) |
+| _$obj.func_name_ 	| _Expanded Name_ 	| _Parameters_ 	|
+|---	|---	|---	|
+| **InitAll** 	| Initialise All 	| void InitAll(int pto, ipaddress dA, ipaddress bA, System.Net.Sockets.AddressFamily AddressFamily, System.Net.Sockets.SocketType SocketType, System.Net.Sockets.ProtocolType ProtocolType) 	|
+| **CreateSocket** 	| Create Socket 	| void CreateSocket(System.Net.Sockets.AddressFamily AddressFamily, System.Net.Sockets.SocketType SocketType, System.Net.Sockets.ProtocolType ProtocolType) 	|
+| **SetAddresses** 	| Set Destination & Source IP 	| void SetAddresses(ipaddress bA, ipaddress dA) 	|
+| **Bind** 	| Bind Source IP to Socket 	| void Bind() 	|
+| **Receive** 	| Receive On Binded Socket 	| void Receive() 	|
+| **Flush** 	| Get The Output of Received 	| string Flush() 	|
+| **ConfPing** 	| Configure Ping Options 	| void ConfPing(int pto) 	|
+| **sBytes** 	| Send Bytes 	| void sBytes(string m) 	|
