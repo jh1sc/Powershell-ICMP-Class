@@ -3,7 +3,7 @@
 
 # General
 
-## How To Import The Module Class
+### How To Import The Module Class
 - You Can Do it Manually by Downloading The Class Module From This Git Repo
 
 - Or you can do it via Powershell Commandline, or In your powershell Script. You Can Do this By
