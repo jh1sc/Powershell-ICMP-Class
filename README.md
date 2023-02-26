@@ -21,7 +21,7 @@
 - Second, Now you have the freedom of all the uses within the class
 
 
-| _$obj.func_name_ 	| _Expanded Name_ 	| _Parameters_ 	|
+| _$obj.func_ 	| _Expanded Name_ 	| _$obj.func(Parameters)_ 	|
 |---	|---	|---	|
 | **InitAll** 	| Initialise All 	| void InitAll(int pto, ipaddress dA, ipaddress bA, System.Net.Sockets.AddressFamily AddressFamily, System.Net.Sockets.SocketType SocketType, System.Net.Sockets.ProtocolType ProtocolType) 	|
 | **CreateSocket** 	| Create Socket 	| void CreateSocket(System.Net.Sockets.AddressFamily AddressFamily, System.Net.Sockets.SocketType SocketType, System.Net.Sockets.ProtocolType ProtocolType) 	|
